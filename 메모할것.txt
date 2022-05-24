@@ -1,0 +1,21 @@
+프론트엔드 공부하기
+5/20일 할것 
+태그 선택자 -> 태그이름
+전체 선택자 -> *
+아이디 선택자 ->#
+클래스 선택자 ->.
+
+git 기본 명령어 배우기
+git clone url . (깃허브 리펙토리 에서 주소 복사후 마지막에 공백.)
+git add .
+git commit -m '설명' (-m 이후에 커밋설명쓴다)
+git push (깃허브로 보내기)
+git pull (깃허브에서 받기)
+git checkout -b '브랜치명'(깃허브 마스터로 올리기전 검수를 위해 브런치를 만들때 명령어)
+git pull origin master(마스터 브랜치로부터 소스코드를 받아온다)
+git push origin master (마스터 브랜치 로 보내기)
+
+
+vs code 에서 git연결하기
+소스제어 에서 f1클릭 git clone 으로 디렉토리 설정 해서 
+받기
