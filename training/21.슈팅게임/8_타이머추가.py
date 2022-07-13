@@ -58,7 +58,7 @@ game_font = pygame.font.Font(None, 30)
 
 # 타이머 관련 설정
 total_time = 10
-start_tick = pygame.time.get_ticks()
+start_tick = pygame.time.get_ticks() #현재시간 받아오기
 
 # 게임진행
 while running:
@@ -155,7 +155,7 @@ while running:
     screen.blit(txt,(screen_width/2, screen_height-40))
     
     # 만약 시간이 0 이하면 게임종료
-    if total_time-timer <=0:
+    if total_time-timer <= 0:
         txt = txt = game_font.render(f'Game Over',True,(255,255,255))
         txt_rect = txt.get_rect(center = (screen_width/2,screen_height/2))
         screen.blit(txt, txt_rect)
